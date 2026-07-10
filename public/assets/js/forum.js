@@ -30,6 +30,8 @@ const db = getFirestore(app);
 const provider = new GoogleAuthProvider();
 
 const lang = document.documentElement.lang === "en" ? "en" : "ja";
+// 言語別に完全分離されたフォーラム(日本語: forum_posts_ja / 英語: forum_posts_en)
+const POSTS_COLLECTION = lang === "en" ? "forum_posts_en" : "forum_posts_ja";
 const T = {
   ja: {
     guest: "投稿するにはGoogleアカウントでログインしてください(閲覧は誰でも可能です)。本名は表示されません。",
@@ -174,7 +176,7 @@ if (postBtn) {
     if (text.length > 1000) return;
     postBtn.disabled = true;
     try {
-      await addDoc(collection(db, "forum_posts"), {
+      await addDoc(collection(db, POSTS_COLLECTION), {
         uid: currentUser.uid,
         name: currentHandle,
         text: text,
@@ -192,7 +194,7 @@ if (postBtn) {
   });
 }
 
-const q = query(collection(db, "forum_posts"), orderBy("created", "desc"), limit(50));
+const q = query(collection(db, POSTS_COLLECTION), orderBy("created", "desc"), limit(50));
 onSnapshot(q, snap => {
   if (snap.empty) {
     listEl.innerHTML = '<div class="forum-empty">' + T.empty + "</div>";

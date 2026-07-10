@@ -1,7 +1,8 @@
 /* ============================================
    Cabo Verde Fans — forum (Firebase Auth + Firestore)
-   collection: forum_posts { uid, name, text, created }
-   collection: banned { <uid>: {} }  ← 違反者はConsoleでuidを追加
+   forum_posts { uid, name, text, created }
+   forum_users/{uid} { handle }  ← ハンドルネーム
+   banned/{uid}                  ← 違反者ブロック
    ============================================ */
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
@@ -10,7 +11,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import {
   getFirestore, collection, addDoc, serverTimestamp,
-  query, orderBy, limit, onSnapshot
+  query, orderBy, limit, onSnapshot, doc, getDoc, setDoc
 } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -31,32 +32,42 @@ const provider = new GoogleAuthProvider();
 const lang = document.documentElement.lang === "en" ? "en" : "ja";
 const T = {
   ja: {
-    guest: "投稿するにはGoogleアカウントでログインしてください(閲覧は誰でも可能です)。",
-    hello: "さん としてログイン中",
+    guest: "投稿するにはGoogleアカウントでログインしてください(閲覧は誰でも可能です)。本名は表示されません。",
+    hello: "として参加中",
     login: "Googleでログイン",
     logout: "ログアウト",
     post: "投稿する",
-    placeholder: "カーボベルデについて話しましょう…(最大1000文字)",
     empty: "まだ投稿がありません。最初のひとことをどうぞ!",
     posted: "投稿しました!",
     err_banned: "このアカウントは利用ルール違反のため投稿が制限されています。",
     err_generic: "投稿に失敗しました。時間をおいて再度お試しください。",
     err_login: "ログインに失敗しました。",
-    anon: "名無しさん",
+    handle_setup: "フォーラムで表示するハンドルネームを設定してください(本名は表示されません):",
+    handle_ph: "ハンドルネーム(2〜20文字)",
+    handle_save: "決定",
+    handle_change: "名前変更",
+    handle_saved: "ハンドルネームを設定しました!",
+    handle_invalid: "2〜20文字で入力してください。",
+    handle_err: "保存に失敗しました。もう一度お試しください。",
   },
   en: {
-    guest: "Sign in with Google to post (anyone can read).",
-    hello: "Signed in as",
+    guest: "Sign in with Google to post (anyone can read). Your real name will not be shown.",
+    hello: "posting as",
     login: "Sign in with Google",
     logout: "Sign out",
     post: "Post",
-    placeholder: "Talk about Cabo Verde… (max 1000 chars)",
     empty: "No posts yet. Be the first to say olá!",
     posted: "Posted!",
     err_banned: "This account has been restricted from posting due to a rules violation.",
     err_generic: "Failed to post. Please try again later.",
     err_login: "Sign-in failed.",
-    anon: "Anonymous",
+    handle_setup: "Choose a handle to display on the forum (your real name will not be shown):",
+    handle_ph: "Handle (2–20 characters)",
+    handle_save: "Save",
+    handle_change: "Change name",
+    handle_saved: "Handle saved!",
+    handle_invalid: "Please enter 2–20 characters.",
+    handle_err: "Could not save. Please try again.",
   },
 }[lang];
 
@@ -69,25 +80,7 @@ const listEl = document.getElementById("forum-list");
 const msgEl = document.getElementById("forum-msg");
 
 let currentUser = null;
-
-function renderAuth(user) {
-  currentUser = user;
-  if (user) {
-    authBox.innerHTML =
-      '<div class="who"><strong>' + escapeHtml(user.displayName || T.anon) + "</strong> " +
-      (lang === "ja" ? T.hello : "— " + T.hello) + "</div>" +
-      '<button class="btn-sm ghost" id="btn-logout">' + T.logout + "</button>";
-    document.getElementById("btn-logout").onclick = () => signOut(auth);
-    formBox.hidden = false;
-  } else {
-    authBox.innerHTML =
-      '<div class="who">' + T.guest + "</div>" +
-      '<button class="btn-sm google" id="btn-login">' + T.login + "</button>";
-    document.getElementById("btn-login").onclick = () =>
-      signInWithPopup(auth, provider).catch(() => showMsg(T.err_login, true));
-    formBox.hidden = true;
-  }
-}
+let currentHandle = null;
 
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c =>
@@ -108,7 +101,65 @@ function fmtDate(ts) {
     " " + pad(d.getHours()) + ":" + pad(d.getMinutes());
 }
 
-onAuthStateChanged(auth, renderAuth);
+function renderGuest() {
+  authBox.innerHTML =
+    '<div class="who">' + T.guest + "</div>" +
+    '<button class="btn-sm google" id="btn-login">' + T.login + "</button>";
+  document.getElementById("btn-login").onclick = () =>
+    signInWithPopup(auth, provider).catch(() => showMsg(T.err_login, true));
+  formBox.hidden = true;
+}
+
+function renderHandleSetup(prefill) {
+  authBox.innerHTML =
+    '<div class="who" style="flex-basis:100%;">' + T.handle_setup + "</div>" +
+    '<input type="text" id="handle-input" maxlength="20" placeholder="' + T.handle_ph + '"' +
+    ' value="' + escapeHtml(prefill || "") + '"' +
+    ' style="flex:1; min-width:180px; border:2px solid #e8ddc6; border-radius:999px; padding:8px 16px; font-family:inherit; font-size:0.9rem;">' +
+    '<button class="btn-sm google" id="handle-save">' + T.handle_save + "</button>" +
+    '<button class="btn-sm ghost" id="btn-logout">' + T.logout + "</button>";
+  formBox.hidden = true;
+  document.getElementById("btn-logout").onclick = () => signOut(auth);
+  document.getElementById("handle-save").onclick = async () => {
+    const v = document.getElementById("handle-input").value.trim();
+    if (v.length < 2 || v.length > 20) { showMsg(T.handle_invalid, true); return; }
+    try {
+      await setDoc(doc(db, "forum_users", currentUser.uid), { handle: v });
+      currentHandle = v;
+      showMsg(T.handle_saved, false);
+      renderMember();
+    } catch (e) {
+      showMsg(T.handle_err, true);
+    }
+  };
+}
+
+function renderMember() {
+  authBox.innerHTML =
+    '<div class="who"><strong>' + escapeHtml(currentHandle) + "</strong> " + T.hello + "</div>" +
+    '<button class="btn-sm ghost" id="handle-edit">' + T.handle_change + "</button>" +
+    '<button class="btn-sm ghost" id="btn-logout">' + T.logout + "</button>";
+  document.getElementById("btn-logout").onclick = () => signOut(auth);
+  document.getElementById("handle-edit").onclick = () => renderHandleSetup(currentHandle);
+  formBox.hidden = false;
+}
+
+onAuthStateChanged(auth, async (user) => {
+  currentUser = user;
+  currentHandle = null;
+  if (!user) { renderGuest(); return; }
+  try {
+    const snap = await getDoc(doc(db, "forum_users", user.uid));
+    if (snap.exists() && snap.data().handle) {
+      currentHandle = snap.data().handle;
+      renderMember();
+    } else {
+      renderHandleSetup("");
+    }
+  } catch (e) {
+    renderHandleSetup("");
+  }
+});
 
 if (textarea) {
   textarea.addEventListener("input", () => {
@@ -119,13 +170,13 @@ if (textarea) {
 if (postBtn) {
   postBtn.addEventListener("click", async () => {
     const text = textarea.value.trim();
-    if (!currentUser || !text) return;
+    if (!currentUser || !currentHandle || !text) return;
     if (text.length > 1000) return;
     postBtn.disabled = true;
     try {
       await addDoc(collection(db, "forum_posts"), {
         uid: currentUser.uid,
-        name: currentUser.displayName || T.anon,
+        name: currentHandle,
         text: text,
         created: serverTimestamp(),
       });
@@ -141,15 +192,14 @@ if (postBtn) {
   });
 }
 
-// 最新50件をリアルタイム表示
 const q = query(collection(db, "forum_posts"), orderBy("created", "desc"), limit(50));
 onSnapshot(q, snap => {
   if (snap.empty) {
     listEl.innerHTML = '<div class="forum-empty">' + T.empty + "</div>";
     return;
   }
-  listEl.innerHTML = snap.docs.map(doc => {
-    const p = doc.data();
+  listEl.innerHTML = snap.docs.map(d => {
+    const p = d.data();
     return '<div class="forum-item">' +
       '<div class="fhead"><span class="fname">' + escapeHtml(p.name) + "</span>" +
       '<span class="fdate">' + fmtDate(p.created) + "</span></div>" +

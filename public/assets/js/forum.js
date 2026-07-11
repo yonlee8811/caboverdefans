@@ -29,9 +29,10 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 const provider = new GoogleAuthProvider();
 
-const lang = document.documentElement.lang === "en" ? "en" : "ja";
-// 言語別に完全分離されたフォーラム(日本語: forum_posts_ja / 英語: forum_posts_en)
-const POSTS_COLLECTION = lang === "en" ? "forum_posts_en" : "forum_posts_ja";
+const dl = document.documentElement.lang;
+const lang = dl === "en" ? "en" : dl === "zh" ? "zh" : "ja";
+// 言語別に完全分離されたフォーラム(日本語: forum_posts_ja / 英語: forum_posts_en / 中国語: forum_posts_zh)
+const POSTS_COLLECTION = lang === "en" ? "forum_posts_en" : lang === "zh" ? "forum_posts_zh" : "forum_posts_ja";
 const T = {
   ja: {
     guest: "投稿するにはGoogleアカウントでログインしてください(閲覧は誰でも可能です)。本名は表示されません。",
@@ -70,6 +71,25 @@ const T = {
     handle_saved: "Handle saved!",
     handle_invalid: "Please enter 2–20 characters.",
     handle_err: "Could not save. Please try again.",
+  },
+  zh: {
+    guest: "发帖请使用Google账号登录(任何人都可以浏览)。您的真实姓名不会被显示。",
+    hello: "正在参与讨论",
+    login: "使用Google登录",
+    logout: "退出登录",
+    post: "发布",
+    empty: "还没有帖子。来发第一条吧!",
+    posted: "已发布!",
+    err_banned: "该账号因违反社区规则,发帖功能已被限制。",
+    err_generic: "发布失败,请稍后再试。",
+    err_login: "登录失败。",
+    handle_setup: "请设置论坛显示的昵称(不会显示真实姓名):",
+    handle_ph: "昵称(2〜20个字符)",
+    handle_save: "确定",
+    handle_change: "修改昵称",
+    handle_saved: "昵称已保存!",
+    handle_invalid: "请输入2〜20个字符。",
+    handle_err: "保存失败,请重试。",
   },
 }[lang];
 

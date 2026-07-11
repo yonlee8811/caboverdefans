@@ -5,8 +5,9 @@
     <loc>https://caboverde-fans.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -14,8 +15,9 @@
     <loc>https://caboverde-fans.com/en/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -24,7 +26,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/culture.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/culture.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/culture.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/culture.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -33,7 +36,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/food.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/food.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/food.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/food.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -42,7 +46,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/football.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/football.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/football.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/football.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -51,7 +56,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/forum.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/forum.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/forum.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/forum.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -59,8 +65,9 @@
     <loc>https://caboverde-fans.com/en/islands/</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -68,8 +75,9 @@
     <loc>https://caboverde-fans.com/en/islands/boa-vista.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/boa-vista.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/boa-vista.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/boa-vista.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/boa-vista.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -77,8 +85,9 @@
     <loc>https://caboverde-fans.com/en/islands/brava.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/brava.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/brava.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/brava.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/brava.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -86,8 +95,9 @@
     <loc>https://caboverde-fans.com/en/islands/fogo.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/fogo.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/fogo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/fogo.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/fogo.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -95,8 +105,9 @@
     <loc>https://caboverde-fans.com/en/islands/maio.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/maio.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/maio.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/maio.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/maio.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -104,8 +115,9 @@
     <loc>https://caboverde-fans.com/en/islands/sal.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/sal.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/sal.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/sal.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/sal.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -113,8 +125,9 @@
     <loc>https://caboverde-fans.com/en/islands/santa-luzia.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/santa-luzia.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/santa-luzia.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/santa-luzia.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/santa-luzia.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -122,8 +135,9 @@
     <loc>https://caboverde-fans.com/en/islands/santiago.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/santiago.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/santiago.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/santiago.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/santiago.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -131,8 +145,9 @@
     <loc>https://caboverde-fans.com/en/islands/santo-antao.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/santo-antao.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/santo-antao.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/santo-antao.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/santo-antao.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -140,8 +155,9 @@
     <loc>https://caboverde-fans.com/en/islands/sao-nicolau.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/sao-nicolau.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/sao-nicolau.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/sao-nicolau.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/sao-nicolau.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -149,8 +165,9 @@
     <loc>https://caboverde-fans.com/en/islands/sao-vicente.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/sao-vicente.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/sao-vicente.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/sao-vicente.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/sao-vicente.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -159,7 +176,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/language.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/language.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/language.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/language.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -168,7 +186,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/schedule.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/schedule.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/schedule.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/schedule.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -177,7 +196,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/travel.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/travel.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/travel.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/travel.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -185,8 +205,9 @@
     <loc>https://caboverde-fans.com/ja/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -195,7 +216,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/culture.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/culture.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/culture.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/culture.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -204,7 +226,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/food.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/food.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/food.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/food.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -213,7 +236,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/football.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/football.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/football.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/football.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -222,7 +246,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/forum.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/forum.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/forum.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/forum.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
@@ -230,8 +255,9 @@
     <loc>https://caboverde-fans.com/ja/islands/</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -239,8 +265,9 @@
     <loc>https://caboverde-fans.com/ja/islands/boa-vista.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/boa-vista.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/boa-vista.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/boa-vista.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/boa-vista.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -248,8 +275,9 @@
     <loc>https://caboverde-fans.com/ja/islands/brava.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/brava.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/brava.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/brava.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/brava.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -257,8 +285,9 @@
     <loc>https://caboverde-fans.com/ja/islands/fogo.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/fogo.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/fogo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/fogo.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/fogo.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -266,8 +295,9 @@
     <loc>https://caboverde-fans.com/ja/islands/maio.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/maio.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/maio.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/maio.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/maio.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -275,8 +305,9 @@
     <loc>https://caboverde-fans.com/ja/islands/sal.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/sal.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/sal.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/sal.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/sal.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -284,8 +315,9 @@
     <loc>https://caboverde-fans.com/ja/islands/santa-luzia.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/santa-luzia.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/santa-luzia.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/santa-luzia.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/santa-luzia.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -293,8 +325,9 @@
     <loc>https://caboverde-fans.com/ja/islands/santiago.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/santiago.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/santiago.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/santiago.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/santiago.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -302,8 +335,9 @@
     <loc>https://caboverde-fans.com/ja/islands/santo-antao.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/santo-antao.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/santo-antao.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/santo-antao.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/santo-antao.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -311,8 +345,9 @@
     <loc>https://caboverde-fans.com/ja/islands/sao-nicolau.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/sao-nicolau.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/sao-nicolau.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/sao-nicolau.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/sao-nicolau.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -320,8 +355,9 @@
     <loc>https://caboverde-fans.com/ja/islands/sao-vicente.html</loc>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/sao-vicente.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/sao-vicente.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/sao-vicente.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/sao-vicente.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -330,7 +366,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/language.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/language.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/language.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/language.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -339,7 +376,8 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/schedule.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/schedule.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/schedule.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/schedule.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -348,7 +386,198 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/travel.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/travel.html"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/travel.html"/>
-    <lastmod>2026-07-10</lastmod>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/travel.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/culture.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/culture.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/culture.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/culture.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/culture.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/food.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/food.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/food.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/food.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/food.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/football.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/football.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/football.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/football.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/football.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/forum.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/forum.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/forum.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/forum.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/forum.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/boa-vista.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/boa-vista.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/boa-vista.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/boa-vista.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/boa-vista.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/brava.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/brava.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/brava.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/brava.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/brava.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/fogo.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/fogo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/fogo.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/fogo.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/fogo.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/maio.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/maio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/maio.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/maio.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/maio.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/sal.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/sal.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/sal.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/sal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/sal.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/santa-luzia.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/santa-luzia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/santa-luzia.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/santa-luzia.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/santa-luzia.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/santiago.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/santiago.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/santiago.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/santiago.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/santiago.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/santo-antao.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/santo-antao.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/santo-antao.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/santo-antao.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/santo-antao.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/sao-nicolau.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/sao-nicolau.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/sao-nicolau.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/sao-nicolau.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/sao-nicolau.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/islands/sao-vicente.html</loc>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/islands/sao-vicente.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/islands/sao-vicente.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/islands/sao-vicente.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/islands/sao-vicente.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/language.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/language.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/language.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/language.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/language.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/schedule.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/schedule.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/schedule.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/schedule.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/schedule.html"/>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://caboverde-fans.com/zh/travel.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://caboverde-fans.com/en/travel.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://caboverde-fans.com/ja/travel.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://caboverde-fans.com/zh/travel.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://caboverde-fans.com/en/travel.html"/>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

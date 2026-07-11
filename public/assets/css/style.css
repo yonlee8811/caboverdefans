@@ -24,6 +24,11 @@ html[lang="ja"] {
   --font-body: "Noto Sans JP", sans-serif;
 }
 
+html[lang="zh"] {
+  --font-display: "ZCOOL KuaiLe", "Noto Sans SC", sans-serif;
+  --font-body: "Noto Sans SC", sans-serif;
+}
+
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
 html { scroll-behavior: smooth; }
